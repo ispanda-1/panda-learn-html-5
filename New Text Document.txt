@@ -1,0 +1,23 @@
+$(document).ready(function () {
+    $("#1").click(function () {
+        $("#11").toggle(2000);
+    });
+    $("#2").click(function () {
+        $("#22").toggle(2000);
+    });
+    $("#3").click(function () {
+        $("#33").toggle(2000);
+    });
+    $("#4").click(function () {
+        $("#11").hide(2000);
+        $("#22").hide(2000);
+        $("#33").hide(2000);
+    })
+    $("#5").click(function () {
+        $("#11").show(2000);
+        $("#22").show(2000);
+        $("#33").show(2000);
+    })
+
+
+});
